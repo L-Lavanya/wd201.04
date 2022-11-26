@@ -13,7 +13,7 @@
       "prettier --write ."
     ]
   },
-  "author": "Suhruth1508 <20951a05p4@iare.ac.in>",
+  "author": "Lavanya <lakkakulalavanya57@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "husky": "^8.0.1",
