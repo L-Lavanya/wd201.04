@@ -8,17 +8,17 @@ describe("Todo List Test Suite", () => {
     const oneDay = 86400000;
     [
       {
-        title: "Writing the Notes",
+        title: "Wake up Early Morning Daily",
         completed: false,
         dueDate: new Date(today.getTime() - oneDay).toLocaleDateString("en-CA"),
       },
       {
-        title: "Purchase Groceries",
+        title: "Prepare for Gate Exam",
         completed: false,
         dueDate: new Date().toLocaleDateString("en-CA"),
       },
       {
-        title: "Prepare for Exams",
+        title: "Prepare for Semster Exams",
         completed: false,
         dueDate: new Date(today.getTime() + oneDay).toLocaleDateString("en-CA"),
       },
@@ -27,7 +27,7 @@ describe("Todo List Test Suite", () => {
   test("checks creating a new todo", () => {
     expect(all.length).toEqual(3);
     add({
-      title: "Go to The Park",
+      title: "Go to The College",
       completed: false,
       dueDate: new Date().toLocaleDateString("en-CA"),
     });
