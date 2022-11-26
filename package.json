@@ -1,0 +1,25 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "todo.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "author": "Suhruth1508 <20951a05p4@iare.ac.in>",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^8.0.1",
+    "jest": "^29.2.2",
+    "lint-staged": "^13.0.3"
+  }
+  
+
+}
